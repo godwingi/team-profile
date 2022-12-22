@@ -1,3 +1,7 @@
+function generateHtml(team) {
+// console.log(team[0].name)
+
+var html = `
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +11,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    ${team[0].name}
 </body>
-</html>
+</html>`
+
+return html
+
+}
+
+module.exports = generateHtml;
