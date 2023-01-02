@@ -1,0 +1,20 @@
+.title {
+    font-size: large;
+    text-align: center;
+    font-weight: bolder;
+}
+
+span {
+    font-weight: bold;
+}
+
+.card-header {
+    font-weight:bold;
+    text-align: center;
+}
+
+.placement {
+    margin-left: 10px;
+    float:left;
+    clear: none;
+}
